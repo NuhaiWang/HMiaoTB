@@ -1,5 +1,7 @@
-# calculate the nodes in single element from Gmsh
-# element types same with Gmsh
+# Calculate the nodes in single element from Gmsh.
+# Defination of element types are same with Gmsh.
+# Defination: https://gitlab.onelab.info/gmsh/gmsh/blob/master/src/common/GmshDefines.h
+# Must initialize() Gmsh before use this function.
 # MiaoZhang 2024.05.28
 function cal_nnodes_1_ele(elementType::Int64)
     node_1 = [15]
