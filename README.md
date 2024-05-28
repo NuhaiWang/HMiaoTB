@@ -1,3 +1,3 @@
 # HMiaoTB
- Handsome Miao toolbox
- yes, it's me
+ Handsome Miao toolbox.
+ Yes, it's me
