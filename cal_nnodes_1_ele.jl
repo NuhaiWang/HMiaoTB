@@ -3,7 +3,8 @@
 # Defination: https://gitlab.onelab.info/gmsh/gmsh/blob/master/src/common/GmshDefines.h
 # Must initialize() Gmsh before use this function.
 # MiaoZhang 2024.05.28
-function cal_nnodes_1_ele(elementType::Int64)
+function cal_nnodes_1_ele(elementType)
+    elementType=elementType[1,1]
     node_1 = [15]
     node_2 = [1]
     node_3 = [2]

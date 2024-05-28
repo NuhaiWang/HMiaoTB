@@ -1,6 +1,5 @@
-function get_nodes(filename::nothing)
-    using Gmsh:gmsh
-    if filename!=nothing
+function getG_nodes(filename = 0)
+    if filename != 0
         gmsh.open(filename)
     end
     nodetags, coord, parametricCoord = gmsh.model.mesh.getNodes()
